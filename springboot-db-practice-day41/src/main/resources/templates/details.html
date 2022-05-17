@@ -1,0 +1,18 @@
+<html xmlns:th="http://www.thymleaf.org">
+<head> <meta charset="ISO-8859-1">
+<title>jobiak.ai</title>
+</head>
+<body>
+
+<h1> Employee Details </h1>
+<hr>
+
+<h2> Emp Id: <h2 th:text="${employee.emp_id}" style="background-color:aqua;"></h2>
+ <h2> Emp Name:<h2 th:text="${employee.emp_name}" style="background-color:yellow;"></h2>
+<h2> Emp Mobile Num:<h2 th:text="${employee.emp_mobile}" style="background-color:orange;"></h2>
+<h2> Emp City:<h2 th:text="${employee.emp_city}" style="background-color:lime;"></h2>
+<h2> Emp Salary:<h2 th:text="${employee.emp_sal}" style="background-color: pink;"></h2>
+
+
+</body>
+</html>
